@@ -10,11 +10,8 @@ function edadConduccion() {
   } else {
     messageD = "Usted no es mayor de edad, no puede conducir.";
   }
-  
+
   const drivingMessage = document.getElementById("driving-authorization");
   drivingMessage.innerText = messageD;
 }
-
-
-
 

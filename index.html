@@ -1,32 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejercicios Js</title>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="ej-1">
-    <p>1- Pide la edad y si es mayor de 18 años indica que ya puede conducir.</p>
-    
-    <form action="">
+      <p>
+        <b
+          >1- Pide la edad y si es mayor de 18 años indica que ya puede
+          conducir.</b
+        >
+      </p>
+
+      <form action="">
         <label for="ej1">Cuantos años tienes?</label>
-        <input type="number" id="ej1">
+        <input type="number" id="ej1" />
 
         <button type="button" onclick="edadConduccion()">Aceptar</button>
         <p id="driving-authorization"></p>
-    </form>
-    <hr>
+      </form>
+      <hr />
     </div>
 
+    <div class="ej-2">
+      <p>
+        <b
+          >2 - Pide una nota (número). Muestra la calificación según la
+          nota:</b
+        >
+        <br /><br />
+        0-3: Muy deficiente <br />
+        3-5: Insuficiente <br />
+        5-6: Suficiente <br />
+        6-7: Bien <br />
+        7-9: Notable <br />
+        9-10: Sobresaliente
+      </p>
 
-    
+      <label for="ej2">Cual fue tu calificacion?</label>
+      <input type="number" id="ej2" />
 
-
+      <button type="button" onclick="qualification()">Aceptar</button>
+      <p id="response-qualification"></p>
+    </div>
 
     <script src="/mayoriaEdad.js"></script>
-    
-</body>
+    <script src="/qualification.js"></script>
+  </body>
 </html>
